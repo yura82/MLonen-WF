@@ -8,7 +8,7 @@ namespace MLonen_WF
 {
    public class IT_Support: Support
     {
-        public IT_Support(string name, bool sex, string rijksregisternummer, DateTime dateOfbirthday, DateTime dateOfStart, int hours, string function, double brutoLoon = 2050) : base(name, sex, rijksregisternummer, dateOfbirthday, dateOfStart, hours, function, brutoLoon)
+        public IT_Support(string name, bool sex, string rijksregisternummer, DateTime dateOfbirthday, DateTime dateOfStart, int hours, string function = "IT Support", double brutoLoon = 2050) : base(name, sex, rijksregisternummer, dateOfbirthday, dateOfStart, hours, function, brutoLoon)
         {
             Hours = 48;
         }
